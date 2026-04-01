@@ -1,5 +1,6 @@
 //Adicionado 2 variáveis para calcular a densidade populacional e o PIB per capita, e adicionado o cálculo dessas variáveis após a entrada dos dados.
 //Adiciona comentários explicando o código, para facilitar a compreensão do programa.
+//Nível Novato e Aventureiro concluído.
 #include <stdio.h>
 
 
