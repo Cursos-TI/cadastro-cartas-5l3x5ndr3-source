@@ -63,11 +63,11 @@ int main() {// Função principal do programa
     carta1.Densidade_populacional = carta1.Populacao / carta1.Area;
     carta1.PIB_per_capita = carta1.PIB / carta1.Populacao;
 
-    // Cálculo do Super Poder da carta 1
-    float  Densidade_populacional = 1.0f / carta1.Densidade_populacional;
-    carta1.super_poder = (float)carta1.Populacao + carta1.Area + carta1.PIB + (float)carta1.Numero_pontos_turisticos + carta1.PIB_per_capita + inverso "Densidade_populacional";
+       float carta1.Densidade_populacional = (float)carta1.Populacao / carta1.Area;
+       float carta1.PIB_per_capita = carta1.PIB / carta1.Populacao;
+       float carta1.super_poder = carta1.Populacao + carta1.Area + carta1.PIB + (float)carta1.Numero_pontos_turisticos + carta1.PIB_per_capita + (1.0 / carta1.Densidade_populacional);
 
-    
+
     // Entrada carta 2
 
     printf("\nDigite o Estado da carta 2: ");
@@ -95,9 +95,9 @@ int main() {// Função principal do programa
     carta2.Densidade_populacional = carta2.Populacao / carta2.Area;
     carta2.PIB_per_capita = carta2.PIB / carta2.Populacao;
 
-    // Cálculo do Super Poder da carta 1
-    float  Densidade_populacional = 1.0f / carta2.Densidade_populacional;
-    carta1.super_poder = (float)carta2.Populacao + carta1.Area + carta2.PIB + (float)carta2.Numero_pontos_turisticos + carta2.PIB_per_capita + Densidade_populacional;
+       float carta2.Densidade_populacional = (float)carta2.Populacao / carta2.Area;
+       float carta2.PIB_per_capita = carta2.PIB / carta2.Populacao;
+       float carta2.super_poder = carta2.Populacao + carta2.Area + carta2.PIB + (float)carta2.Numero_pontos_turisticos + carta2.PIB_per_capita + (1.0 / carta2.Densidade_populacional);      
 
     // Exibição carta 1
     printf("\n=====================================\n");
